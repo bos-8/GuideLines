@@ -1,5 +1,7 @@
 ```yaml
 topic:      Office 365 installation configuration
+date:       2024-08-06
+author:     BO$ <https://github.com/bos-8>
 tag:        [guide, config]
 version:    0x0010
 ```
