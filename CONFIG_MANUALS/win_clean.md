@@ -1,10 +1,10 @@
-```yaml
-topic:      Windows cleanup
-date:       2024-08-06
-author:     BO$ <https://github.com/bos-8>
+---
+topic:      "Windows cleanup"
+creation:   2024-08-06
+author:     "BO$ <https://github.com/bos-8>"
 tag:        [guide, cleanup, windows, config]
-version:    0x0010
-```
+---
+
 # WINDOWS TIPS & TRICKS
 ## Edge uninstall
 1. Goto regedit.exe
@@ -19,7 +19,7 @@ version:    0x0010
 5. Set Value to --> 1
 
 ## Disable Hibernation
-1. Goto Powershell as Admin
+1. Goto Powershell as Administrator
 ```powershell
 powercfg -h off
 ```
