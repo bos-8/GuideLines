@@ -30,7 +30,11 @@ C:\PortableSoftware\MongoDB
 
 ---
 
-### 3. Place the launcher script
+### 3. Download script: [`start_mongodb.bat`](../SCRIPTS/start_mongodb.bat)
+
+---
+
+### 4. Place the launcher script
 - Copy my custom `start_mongodb.bat` file into the **main MongoDB folder** (e.g. next to `bin`)
 - Dir tree should look like this:
 
@@ -46,12 +50,12 @@ C:\PortableSoftware\MongoDB
 
 ---
 
-### 4. Run the script
+### 5. Run the script
 
 > [!WARNING]
-> You are running this script: [`start_mongo.bat`](../SCRIPTS/start_mongodb.bat) at your own risk.
+> You are running this script: `start_mongodb.bat` at your own risk.
 
-- Double-click [`start_mongo.bat`](../SCRIPTS/start_mongodb.bat)
+- Double-click `start_mongodb.bat`
 - The script will:
   - Create `db\` and `log\` folders if they don't exist
   - Start the MongoDB server (`mongod.exe`)
